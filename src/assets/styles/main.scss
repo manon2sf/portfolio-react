@@ -1,0 +1,40 @@
+/*
+ * main.scss - Main style file
+ */
+
+/* Import colors */
+@import "./colors.scss";
+
+html,
+body {
+  background-color: #e0e0e0;
+  scroll-behavior: smooth;
+}
+
+#appContainer {
+  /* Colors */
+
+  .primary-bg {
+    background-color: $primary !important;
+  }
+
+  .primary-txt {
+    color: $primary !important;
+  }
+
+  .secondary-bg {
+    background-color: $secondary !important;
+  }
+
+  .secondary-bg.lighten {
+    background-color: $secondaryLighten !important;
+  }
+
+  .secondary-bg.darken {
+    background-color: $secondaryDarken !important;
+  }
+
+  .secondary-txt {
+    color: $secondary !important;
+  }
+}
