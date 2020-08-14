@@ -2,6 +2,22 @@
  * style.scss - Footer style file
  */
 
-#navbarContainer {
-  background-color: #360032;
+#footerContainer {
+  height: 64px;
+  vertical-align: middle;
+
+  #copyrightContainer {
+    text-align: right;
+    padding: 10px 60px;
+
+    .copyright-txt {
+      color: #ffffff;
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  #footerContainer #copyrightContainer {
+    text-align: center !important;
+  }
 }

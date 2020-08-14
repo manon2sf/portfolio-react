@@ -4,4 +4,24 @@
 
 #homeContainer {
   background-color: #fccdf0;
+
+  #home {
+    height: 100vh;
+    background-color: beige;
+  }
+
+  #a-propos {
+    height: 100vh;
+    background-color: red($color: #000000);
+  }
+
+  #competences {
+    height: 100vh;
+    background-color: blue;
+  }
+
+  #projets {
+    height: 100vh;
+    background-color: violet;
+  }
 }

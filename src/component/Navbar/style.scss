@@ -3,5 +3,15 @@
  */
 
 #navbarContainer {
-  background-color: #cfcfcf;
+  .logo-reseau {
+    width: 20px;
+  }
+
+  .portfolio {
+    margin-right: 350px;
+  }
+
+  .test {
+    position: fixed;
+  }
 }

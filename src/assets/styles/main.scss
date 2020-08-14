@@ -22,19 +22,49 @@ body {
     color: $primary !important;
   }
 
-  .secondary-bg {
-    background-color: $secondary !important;
+  .primary-bg.lighten {
+    background-color: $primaryLighten !important;
   }
 
-  .secondary-bg.lighten {
-    background-color: $secondaryLighten !important;
+  .primary-txt.lighten {
+    color: $primaryLighten !important;
   }
 
-  .secondary-bg.darken {
-    background-color: $secondaryDarken !important;
+  .primary-bg.darken {
+    background-color: $primaryDarken !important;
   }
 
-  .secondary-txt {
-    color: $secondary !important;
+  .primary-txt.darken {
+    color: $primaryDarken !important;
+  }
+
+  .accent-bg {
+    background-color: $accent !important;
+  }
+
+  .accent-txt {
+    color: $accent !important;
+  }
+
+  .accent-bg.darken {
+    background-color: $accentDarken !important;
+  }
+
+  .accent-txt.darken {
+    color: $accentDarken !important;
+  }
+
+  .accent-bg.lighten {
+    background-color: $accentLighten !important;
+  }
+
+  .accent-txt.lighten {
+    color: $accentLighten !important;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  nav .brand-logo {
+    font-size: 1.2rem;
   }
 }
