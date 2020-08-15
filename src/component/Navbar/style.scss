@@ -8,10 +8,14 @@
   }
 
   .portfolio {
-    margin-right: 350px;
+    margin-right: 200px;
   }
 
-  .test {
+  .fixed {
     position: fixed;
+  }
+
+  .zindex100 {
+    z-index: 100;
   }
 }

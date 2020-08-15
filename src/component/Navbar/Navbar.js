@@ -34,11 +34,11 @@ function MainNav(props) {
         alignLinks="right"
         brand={
           <a className="brand-logo" href="#home">
-            Manon de Saint-Ferréol
+            M2sf
           </a>
         }
         id="mobile-nav"
-        className="primary-bg test"
+        className="primary-bg fixed zindex100"
         menuIcon={<Icon>menu</Icon>}
         options={{
           draggable: true,
@@ -59,6 +59,9 @@ function MainNav(props) {
         </NavItem>
         <NavItem target="_blank" href={cv}>
           CV
+        </NavItem>
+        <NavItem target="_blank" href="mailto:manon2sf@gmail.com">
+          <Icon>email</Icon>
         </NavItem>
         <NavItem target="_blank" href="https://github.com/manon2sf">
           <div>

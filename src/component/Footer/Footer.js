@@ -22,7 +22,7 @@ function Footer(props) {
    */
 
   return (
-    <div id="footerContainer" className="primary-bg darken">
+    <div id="footerContainer" className="primary-bg">
       <div id="copyrightContainer">
         <p className="copyright-txt">© Manon de Saint-Ferréol {year}</p>
       </div>

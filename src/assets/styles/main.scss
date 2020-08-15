@@ -7,11 +7,19 @@
 
 html,
 body {
-  background-color: #e0e0e0;
+  background-color: $secondary;
   scroll-behavior: smooth;
+  margin: 0;
+  font-family: "Niramit", sans-serif;
+  color: $primaryDarken;
 }
 
 #appContainer {
+  /* global */
+  .title {
+    font: italic 700 2.5rem "Bellota", cursive, sans-serif;
+  }
+
   /* Colors */
 
   .primary-bg {
@@ -36,6 +44,14 @@ body {
 
   .primary-txt.darken {
     color: $primaryDarken !important;
+  }
+
+  .secondary-bg {
+    background-color: $secondary !important;
+  }
+
+  .secondary-txt {
+    color: $secondary !important;
   }
 
   .accent-bg {
