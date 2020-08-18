@@ -19,7 +19,8 @@ function Parcours(props) {
       }}
     >
       <Tab
-        className=""
+        active
+        className="parcours-tab"
         options={{
           duration: 300,
           onShow: null,
@@ -31,8 +32,7 @@ function Parcours(props) {
         Freelance blablabla
       </Tab>
       <Tab
-        active
-        className="secondary-bg"
+        className="parcours-tab"
         options={{
           duration: 300,
           onShow: null,
@@ -44,7 +44,7 @@ function Parcours(props) {
         Formation Le Bocal academy
       </Tab>
       <Tab
-        className=""
+        className="parcours-tab"
         options={{
           duration: 300,
           onShow: null,

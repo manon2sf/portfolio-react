@@ -34,7 +34,7 @@ function MainNav(props) {
         alignLinks="right"
         brand={
           <a className="brand-logo" href="#home">
-            M2sf
+            M2SF
           </a>
         }
         id="mobile-nav"
