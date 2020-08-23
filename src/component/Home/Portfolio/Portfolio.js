@@ -9,6 +9,7 @@ import Col from "react-materialize/lib/Col";
 import Icon from "react-materialize/lib/Icon";
 import CardTitle from "react-materialize/lib/CardTitle";
 import Card from "react-materialize/lib/Card";
+import { Link } from "react-router-dom";
 
 /* Styles imports */
 import "./style.scss";
@@ -39,7 +40,7 @@ function Portfolio(props) {
           title="Community - Application Web MERN"
         >
           <p>
-            <a href="/community">En savoir plus</a>
+            <Link to={process.env.PUBLIC_URL + "/community"}>en savoir +</Link>
           </p>
         </Card>
       </Col>
@@ -70,7 +71,7 @@ function Portfolio(props) {
           title="Cannes Is Up - Application Web MERN"
         >
           <p>
-            <a href="/cannesisup">En savoir plus</a>
+            <Link to={process.env.PUBLIC_URL + "/cannesisup"}>en savoir +</Link>
           </p>
         </Card>
       </Col>
@@ -97,7 +98,7 @@ function Portfolio(props) {
           title="LeBocalgram - Application Web MERN"
         >
           <p>
-            <a href="/lebocalgram">En savoir plus</a>
+            <Link to={process.env.PUBLIC_URL + "/bocalgram"}>en savoir +</Link>
           </p>
         </Card>
       </Col>

@@ -41,7 +41,7 @@ function Home(props) {
         </Flip>
       </section>
       <section id="a-propos">
-        <div class="custom-shape-divider-top-1597583459">
+        <div className="custom-shape-divider-top-1597583459">
           <svg
             data-name="Layer 1"
             xmlns="http://www.w3.org/2000/svg"
@@ -50,7 +50,7 @@ function Home(props) {
           >
             <path
               d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
-              class="shape-fill"
+              className="shape-fill-1"
             ></path>
           </svg>
         </div>
@@ -61,30 +61,28 @@ function Home(props) {
             <Row>
               <Col className="col1" l={6} s={12}>
                 <div className="picture-container">
-                  {" "}
                   <img className="profil-picture" src="/img/profil.jpg" />
                 </div>
               </Col>
               <Col className="col2" l={6} s={12}>
-                <p className="title accent-txt">Qui suis-je ?</p>
-                <p>
-                  Ingénieure agro-alimentaire de formation, j'ai relevé le
-                  challenge d'une reconversion dans le Web début 2020 et j'en
-                  suis totalement ravie !
-                </p>
-                <p>
-                  J'ai choisi de suivre une formation Bootcamp spécialisée dans
-                  le développement Web me permettant de faire du développement
-                  fullstack Javascript (Stack MERN).
-                </p>
-                {/* <p>
-                  Phrase ce qui me plait dans le métier et double compétences{" "}
-                </p> */}
-                <p>
-                  Aujourd'hui je réalise des missions en freelance et suis
-                  ouverte aux opportunités aussi bien en Front-end qu'en
-                  Back-end !{" "}
-                </p>
+                <div className="text-container">
+                  <p className="title accent-txt">Qui suis-je ?</p>
+                  <p>
+                    Ingénieure agro-alimentaire de formation, j'ai relevé le
+                    challenge d'une reconversion dans le Web début 2020 et j'en
+                    suis totalement ravie !
+                  </p>
+                  <p>
+                    J'ai choisi de suivre une formation Bootcamp spécialisée
+                    dans le développement Web me permettant de faire du
+                    développement fullstack Javascript (Stack MERN).
+                  </p>
+                  <p>
+                    Aujourd'hui je réalise des missions en freelance et suis
+                    ouverte aux opportunités aussi bien en Front-end qu'en
+                    Back-end !{" "}
+                  </p>
+                </div>
               </Col>
             </Row>
             <Row>
@@ -93,7 +91,7 @@ function Home(props) {
             </Row>
           </div>
         </Fade>
-        <div class="custom-shape-divider-bottom-1597584143">
+        <div className="custom-shape-divider-bottom-1597584143">
           <svg
             data-name="Layer 1"
             xmlns="http://www.w3.org/2000/svg"
@@ -102,7 +100,7 @@ function Home(props) {
           >
             <path
               d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
-              class="shape-fill"
+              className="shape-fill"
             ></path>
           </svg>
         </div>
@@ -115,7 +113,7 @@ function Home(props) {
         </Fade>
       </section>
       <section id="projets">
-        <div class="custom-shape-divider-top-1597583459">
+        <div className="custom-shape-divider-top-1597583459">
           <svg
             data-name="Layer 1"
             xmlns="http://www.w3.org/2000/svg"
@@ -124,7 +122,7 @@ function Home(props) {
           >
             <path
               d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
-              class="shape-fill"
+              className="shape-fill"
             ></path>
           </svg>
         </div>

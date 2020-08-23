@@ -20,15 +20,18 @@ import "../assets/styles/main.scss";
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
       <div id="appContainer">
         {/* Navbar */}
         <Navbar />
 
         {/* Page content */}
         <Switch>
-          <Route path="/community" component={Community} />
-          <Route path="/" component={Home} />
+          <Route
+            path={`${process.env.PUBLIC_URL}/community`}
+            component={Community}
+          />
+          <Route path={process.env.PUBLIC_URL} component={Home} />
         </Switch>
 
         {/* Footer  */}
