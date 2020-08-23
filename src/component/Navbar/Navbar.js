@@ -7,7 +7,7 @@ import React, { useState } from "react";
 import Navbar from "react-materialize/lib/Navbar";
 import NavItem from "react-materialize/lib/NavItem";
 import Icon from "react-materialize/lib/Icon";
-import cv from "../../assets/pdf/CV-Manon-de-Saint-Ferreol.pdf";
+import cv from "../../assets/pdf/CV_2020-08-19_Manon_de_Saint-Ferreol.pdf";
 import linkedin from "../../assets/img/linkedin-brands.svg";
 import github from "../../assets/img/github-square-brands.svg";
 

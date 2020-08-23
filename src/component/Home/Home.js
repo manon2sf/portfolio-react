@@ -20,9 +20,9 @@ function Home(props) {
   /**
    * Methods
    */
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+  // useEffect(() => {
+  //   window.scrollTo(0, 0);
+  // }, []);
 
   /**
    * Render
@@ -36,6 +36,7 @@ function Home(props) {
             <p className="secondary-txt">Manon de Saint-Ferréol</p>
             <h1 className="secondary-txt">Développeuse Web</h1>
             <h2 className="secondary-txt">Fullstack Javascript</h2>
+            <p className="secondary-txt">[En cours de construction]</p>
           </div>
         </Flip>
       </section>
@@ -59,7 +60,10 @@ function Home(props) {
             <p className="title primary-txt">A propos</p>
             <Row>
               <Col className="col1" l={6} s={12}>
-                photo
+                <div className="picture-container">
+                  {" "}
+                  <img className="profil-picture" src="/img/profil.jpg" />
+                </div>
               </Col>
               <Col className="col2" l={6} s={12}>
                 <p className="title accent-txt">Qui suis-je ?</p>
@@ -73,9 +77,9 @@ function Home(props) {
                   le développement Web me permettant de faire du développement
                   fullstack Javascript (Stack MERN).
                 </p>
-                <p>
+                {/* <p>
                   Phrase ce qui me plait dans le métier et double compétences{" "}
-                </p>
+                </p> */}
                 <p>
                   Aujourd'hui je réalise des missions en freelance et suis
                   ouverte aux opportunités aussi bien en Front-end qu'en
@@ -89,11 +93,6 @@ function Home(props) {
             </Row>
           </div>
         </Fade>
-        <p>
-          Ingénieure agro-alimentaire de formation, j'ai relevé le challenge
-          d'une reconversion dans le Web début 2020 et j'en suis totalement
-          ravie !
-        </p>
         <div class="custom-shape-divider-bottom-1597584143">
           <svg
             data-name="Layer 1"

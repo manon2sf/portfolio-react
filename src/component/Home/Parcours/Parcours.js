@@ -29,7 +29,7 @@ function Parcours(props) {
         }}
         title="Depuis Juin 2020"
       >
-        Freelance blablabla
+        Freelance
       </Tab>
       <Tab
         className="parcours-tab"
