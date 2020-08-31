@@ -14,6 +14,7 @@ import { Link } from "react-router-dom";
 /* Styles imports */
 import "./style.scss";
 
+/* Component */
 function Portfolio(props) {
   return (
     <Row>
@@ -22,13 +23,13 @@ function Portfolio(props) {
         <Card
           closeIcon={<Icon>close</Icon>}
           header={
-            <CardTitle image="img/bocal-login.png" reveal waves="light" />
+            <CardTitle image="img/bocal-login.jpg" reveal waves="light" />
           }
           reveal={
             <div>
               <p>
                 Community est la plateforme pédagogique du Bocal Academy
-                développée en stack MERN.
+                développée en stack MERN (MongoDB, Express, React, NodeJs).
               </p>
               <p>
                 J'ai travaillé comme freelance sur le développement de nouvelles
@@ -37,7 +38,7 @@ function Portfolio(props) {
             </div>
           }
           revealIcon={<Icon>more_vert</Icon>}
-          title="Community - Application Web MERN"
+          title="Community - Application Web MERN (MongoDB, Express, React, NodeJs)"
         >
           <p>
             <Link to={process.env.PUBLIC_URL + "/community"}>en savoir +</Link>
@@ -68,7 +69,7 @@ function Portfolio(props) {
             </div>
           }
           revealIcon={<Icon>more_vert</Icon>}
-          title="Cannes Is Up - Application Web MERN"
+          title="Cannes Is Up - Application Web MERN (MongoDB, Express, React, NodeJs)"
         >
           <p>
             <Link to={process.env.PUBLIC_URL + "/cannesisup"}>en savoir +</Link>
@@ -95,7 +96,7 @@ function Portfolio(props) {
             </div>
           }
           revealIcon={<Icon>more_vert</Icon>}
-          title="LeBocalgram - Application Web MERN"
+          title="LeBocalgram - Application Web MERN (MongoDB, Express, React, NodeJs)"
         >
           <p>
             <Link to={process.env.PUBLIC_URL + "/bocalgram"}>en savoir +</Link>

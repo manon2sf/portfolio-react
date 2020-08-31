@@ -6,12 +6,13 @@
 import React, { useEffect } from "react";
 import Parcours from "./Parcours/Parcours";
 import Portfolio from "./Portfolio/Portfolio";
-import divider from "../../assets/img/waves.svg";
+import Competences from "./Competences/Competences";
 
 /* Styles imports */
 import "./style.scss";
 import Flip from "react-reveal/Flip";
 import Fade from "react-reveal/Fade";
+import Zoom from "react-reveal/Zoom";
 import Row from "react-materialize/lib/Row";
 import Col from "react-materialize/lib/Col";
 
@@ -20,9 +21,6 @@ function Home(props) {
   /**
    * Methods
    */
-  // useEffect(() => {
-  //   window.scrollTo(0, 0);
-  // }, []);
 
   /**
    * Render
@@ -30,16 +28,19 @@ function Home(props) {
 
   return (
     <div id="homeContainer">
+      {/* header */}
       <section id="home">
         <Flip top cascade>
           <div className="home-title">
-            <p className="secondary-txt">Manon de Saint-Ferréol</p>
+            <h2 className="secondary-txt">Manon de Saint-Ferréol</h2>
             <h1 className="secondary-txt">Développeuse Web</h1>
             <h2 className="secondary-txt">Fullstack Javascript</h2>
             <p className="secondary-txt">[En cours de construction]</p>
           </div>
         </Flip>
       </section>
+
+      {/* A propos */}
       <section id="a-propos">
         <div className="custom-shape-divider-top-1597583459">
           <svg
@@ -55,8 +56,8 @@ function Home(props) {
           </svg>
         </div>
 
-        <Fade bottom cascade>
-          <div className="section-container">
+        <div className="section-container">
+          <Fade bottom cascade>
             <p className="title primary-txt">A propos</p>
             <Row>
               <Col className="col1" l={6} s={12}>
@@ -85,12 +86,17 @@ function Home(props) {
                 </div>
               </Col>
             </Row>
+          </Fade>
+          <Fade right>
             <Row>
               <p className="title accent-txt">Mon parcours</p>
-              <Parcours />
+              <div className="parcours-container">
+                <Parcours />
+              </div>
             </Row>
-          </div>
-        </Fade>
+          </Fade>
+        </div>
+
         <div className="custom-shape-divider-bottom-1597584143">
           <svg
             data-name="Layer 1"
@@ -105,13 +111,20 @@ function Home(props) {
           </svg>
         </div>
       </section>
+
+      {/* Compétences */}
       <section id="competences">
-        <Fade bottom cascade>
-          <div className="section-container">
-            <p className="title secondary-txt">Compétences</p>
-          </div>
-        </Fade>
+        <div className="section-container">
+          <Fade bottom cascade>
+            <p className="title secondary-txt">Compétences Techniques</p>
+          </Fade>
+          <Fade bottom cascade>
+            <Competences />
+          </Fade>
+        </div>
       </section>
+
+      {/* Projets */}
       <section id="projets">
         <div className="custom-shape-divider-top-1597583459">
           <svg

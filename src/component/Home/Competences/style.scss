@@ -1,0 +1,36 @@
+/*
+ * style.scss - Compenteces style file
+ */
+/* Import colors */
+@import "../../../assets/styles/colors.scss";
+
+#competencesContainer {
+  margin-bottom: 0;
+
+  .collection-container {
+    height: 450px;
+    margin-bottom: 0;
+  }
+  .competences-collection {
+    .col {
+      width: 100%;
+    }
+
+    .collection-item {
+      border-bottom: 0.5px solid #f3e9ef47;
+    }
+
+    ul li {
+      background-color: transparent;
+      color: $secondary;
+
+      .secondary-content {
+        color: $secondary;
+      }
+
+      h4 {
+        font-size: 1.8rem;
+      }
+    }
+  }
+}
