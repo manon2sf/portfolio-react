@@ -58,7 +58,7 @@ function Home(props) {
 
         <div className="section-container">
           <Fade bottom cascade>
-            <p className="title primary-txt">A propos</p>
+            <h1 className="title primary-txt">A propos</h1>
             <Row>
               <Col className="col1" l={6} s={12}>
                 <div className="picture-container">
@@ -116,7 +116,7 @@ function Home(props) {
       <section id="competences">
         <div className="section-container">
           <Fade bottom cascade>
-            <p className="title secondary-txt">Compétences Techniques</p>
+            <h1 className="title secondary-txt">Compétences Techniques</h1>
           </Fade>
           <Fade bottom cascade>
             <Competences />
@@ -141,7 +141,7 @@ function Home(props) {
         </div>
         <Fade bottom cascade>
           <div className="section-container">
-            <p className="title primary-txt darken">Projets</p>
+            <h1 className="title primary-txt darken">Projets</h1>
             <Portfolio />
           </div>
         </Fade>

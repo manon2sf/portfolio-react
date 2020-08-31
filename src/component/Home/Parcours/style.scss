@@ -1,17 +1,22 @@
-.parcours-tab {
-  background-color: #ffffff;
-
-  .title-tab {
-    font-size: 1.6rem;
-    font-weight: bold;
+.parcours-container {
+  .carousel {
+    height: 430px;
   }
-  .subtitle-tab {
-    font-size: 1.6rem;
-    font-weight: bold;
-  }
-}
+  .parcours-tab {
+    background-color: #ffffff;
 
-.tabs-content {
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
-    0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    .title-tab {
+      font-size: 1.6rem;
+      font-weight: bold;
+    }
+    .subtitle-tab {
+      font-size: 1.6rem;
+      font-weight: bold;
+    }
+  }
+
+  .tabs-content {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+      0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  }
 }

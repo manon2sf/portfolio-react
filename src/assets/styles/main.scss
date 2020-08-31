@@ -81,7 +81,37 @@ body {
 }
 
 @media only screen and (max-width: 992px) {
+  html {
+    li,
+    p {
+      font-size: 14px !important;
+    }
+    h1 {
+      font-size: 2rem;
+    }
+  }
+
+  #appContainer .title {
+    font-size: 1.5rem;
+  }
+
   nav .brand-logo {
     font-size: 1.2rem;
+  }
+
+  .parcours-container {
+    .parcours-tab {
+      ul {
+        margin: 0.5rem 0;
+      }
+      .title-tab {
+        font-size: 1rem;
+        margin: 0.5rem 0 0;
+      }
+
+      .subtitle-tab {
+        margin-bottom: 0;
+      }
+    }
   }
 }
