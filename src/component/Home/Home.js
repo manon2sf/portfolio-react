@@ -3,7 +3,7 @@
  */
 
 /* Modules and components imports */
-import React, { useEffect } from "react";
+import React from "react";
 import Parcours from "./Parcours/Parcours";
 import Portfolio from "./Portfolio/Portfolio";
 import Competences from "./Competences/Competences";
@@ -12,9 +12,10 @@ import Competences from "./Competences/Competences";
 import "./style.scss";
 import Flip from "react-reveal/Flip";
 import Fade from "react-reveal/Fade";
-import Zoom from "react-reveal/Zoom";
+import Pulse from "react-reveal/Pulse";
 import Row from "react-materialize/lib/Row";
 import Col from "react-materialize/lib/Col";
+import Icon from "react-materialize/lib/Icon";
 
 /* Home component */
 function Home(props) {
@@ -32,12 +33,30 @@ function Home(props) {
       <section id="home">
         <Flip top cascade>
           <div className="home-title">
-            <h2 className="secondary-txt">Manon de Saint-Ferréol</h2>
-            <h1 className="secondary-txt">Développeuse Web</h1>
-            <h2 className="secondary-txt">Fullstack Javascript</h2>
-            <p className="secondary-txt">[En cours de construction]</p>
+            <h1 className="secondary-txt">Manon de Saint-Ferréol</h1>
+            <h2 className="secondary-txt">Développeuse Web</h2>
+            <h3 className="secondary-txt">Fullstack Javascript</h3>
           </div>
         </Flip>
+        <Fade delay={1000}>
+          <div id="arrowContainer" className="center">
+            <a href="#a-propos">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                enable-background="new 0 0 24 24"
+                viewBox="0 0 24 24"
+                fill="white"
+                width="47px"
+                height="47px"
+              >
+                <g>
+                  <rect fill="none" height="24" width="24" />
+                  <path d="M12,4c4.41,0,8,3.59,8,8s-3.59,8-8,8s-8-3.59-8-8S7.59,4,12,4 M12,2C6.48,2,2,6.48,2,12c0,5.52,4.48,10,10,10 c5.52,0,10-4.48,10-10C22,6.48,17.52,2,12,2L12,2z M13,12l0-4h-2l0,4H8l4,4l4-4H13z" />
+                </g>
+              </svg>
+            </a>
+          </div>
+        </Fade>
       </section>
 
       {/* A propos */}
@@ -62,12 +81,16 @@ function Home(props) {
             <Row>
               <Col className="col1" l={6} s={12}>
                 <div className="picture-container">
-                  <img className="profil-picture" src="/img/profil.jpg" />
+                  <img
+                    className="profil-picture"
+                    src="/img/profil.jpg"
+                    alt="Manon de Saint Ferréol développeuse Web"
+                  />
                 </div>
               </Col>
               <Col className="col2" l={6} s={12}>
                 <div className="text-container">
-                  <p className="title accent-txt">Qui suis-je ?</p>
+                  <p className="subtitle accent-txt">Qui suis-je ?</p>
                   <p>
                     Ingénieure agro-alimentaire de formation, j'ai relevé le
                     challenge d'une reconversion dans le Web début 2020 et j'en
@@ -89,7 +112,7 @@ function Home(props) {
           </Fade>
           <Fade right>
             <Row>
-              <p className="title accent-txt">Mon parcours</p>
+              <p className="subtitle accent-txt">Mon parcours</p>
               <div className="parcours-container">
                 <Parcours />
               </div>

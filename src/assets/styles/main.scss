@@ -21,6 +21,14 @@ body {
     font: italic 700 2.5rem "Bellota", cursive, sans-serif;
   }
 
+  .subtitle {
+    font: italic 700 2rem "Bellota", cursive, sans-serif;
+  }
+
+  .img100 {
+    max-width: 100%;
+  }
+
   /* Colors */
 
   .primary-bg {
@@ -78,6 +86,15 @@ body {
   .accent-txt.lighten {
     color: $accentLighten !important;
   }
+}
+
+.center {
+  text-align: center;
+}
+
+.project-container {
+  padding-top: 64px;
+  height: 100vh;
 }
 
 @media only screen and (max-width: 992px) {

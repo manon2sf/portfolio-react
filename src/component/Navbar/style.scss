@@ -7,10 +7,16 @@
 #navbarContainer {
   .reseau-container {
     margin-top: 6px;
+
     .logo-reseau,
     svg {
       width: 20px;
     }
+  }
+
+  .brand {
+    width: 47px;
+    margin-left: 15px;
   }
 
   .portfolio {

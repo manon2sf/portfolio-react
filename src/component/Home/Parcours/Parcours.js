@@ -65,7 +65,11 @@ function Parcours(props) {
         <h1 className="title-tab">
           Formation Full-Stack Javascript -{" "}
           <span>
-            <a href="https://lebocal.academy/" target="_blank">
+            <a
+              href="https://lebocal.academy/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Le Bocal Academy
             </a>
           </span>

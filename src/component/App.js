@@ -11,7 +11,9 @@ import M from "materialize-css/dist/js/materialize.min";
 /* Components imports */
 import Navbar from "./Navbar/Navbar";
 import Home from "../component/Home/Home";
-import Community from "../component/Project/ProjectCommunity";
+import Community from "./Project/Community/Community";
+import CannesIsUp from "./Project/CannesIsUp/CannesIsUp";
+import Bocalgram from "./Project/Bocalgram/Bocalgram";
 import Footer from "../component/Footer/Footer";
 
 /* Styles imports */
@@ -30,6 +32,14 @@ function App() {
           <Route
             path={`${process.env.PUBLIC_URL}/community`}
             component={Community}
+          />
+          <Route
+            path={`${process.env.PUBLIC_URL}/cannesisup`}
+            component={CannesIsUp}
+          />
+          <Route
+            path={`${process.env.PUBLIC_URL}/bocalgram`}
+            component={Bocalgram}
           />
           <Route path={process.env.PUBLIC_URL} component={Home} />
         </Switch>

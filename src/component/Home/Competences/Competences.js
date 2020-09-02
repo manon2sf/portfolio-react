@@ -25,6 +25,7 @@ function Competences(props) {
                 <a
                   className="secondary-content"
                   href="https://developer.mozilla.org/fr/docs/Web/JavaScript"
+                  rel="noopener noreferrer"
                   target="_blank"
                 >
                   <Icon>keyboard_arrow_right</Icon>
@@ -35,6 +36,7 @@ function Competences(props) {
                 <a
                   className="secondary-content"
                   href="https://developer.mozilla.org/fr/docs/Web/HTML"
+                  rel="noopener noreferrer"
                   target="_blank"
                 >
                   <Icon>keyboard_arrow_right</Icon>
@@ -45,6 +47,7 @@ function Competences(props) {
                 <a
                   className="secondary-content"
                   href="https://developer.mozilla.org/fr/docs/Web/CSS"
+                  rel="noopener noreferrer"
                   target="_blank"
                 >
                   <Icon>keyboard_arrow_right</Icon>
@@ -55,6 +58,7 @@ function Competences(props) {
                 <a
                   className="secondary-content"
                   href="https://fr.reactjs.org"
+                  rel="noopener noreferrer"
                   target="_blank"
                 >
                   <Icon>keyboard_arrow_right</Icon>
@@ -65,6 +69,7 @@ function Competences(props) {
                 <a
                   className="secondary-content"
                   href="https://reactnative.dev"
+                  rel="noopener noreferrer"
                   target="_blank"
                 >
                   <Icon>keyboard_arrow_right</Icon>
@@ -75,6 +80,7 @@ function Competences(props) {
                 <a
                   className="secondary-content"
                   href="https://getbootstrap.com/"
+                  rel="noopener noreferrer"
                   target="_blank"
                 >
                   <Icon>keyboard_arrow_right</Icon>
@@ -93,6 +99,7 @@ function Competences(props) {
                 <a
                   className="secondary-content"
                   href="https://nodejs.org/en/"
+                  rel="noopener noreferrer"
                   target="_blank"
                 >
                   <Icon>keyboard_arrow_right</Icon>
@@ -103,6 +110,7 @@ function Competences(props) {
                 <a
                   className="secondary-content"
                   href="https://expressjs.com/fr/"
+                  rel="noopener noreferrer"
                   target="_blank"
                 >
                   <Icon>keyboard_arrow_right</Icon>
@@ -113,6 +121,7 @@ function Competences(props) {
                 <a
                   className="secondary-content"
                   href="https://www.mongodb.com/fr"
+                  rel="noopener noreferrer"
                   target="_blank"
                 >
                   <Icon>keyboard_arrow_right</Icon>
@@ -131,6 +140,7 @@ function Competences(props) {
                 <a
                   className="secondary-content"
                   href="https://github.com/manon2sf"
+                  rel="noopener noreferrer"
                   target="_blank"
                 >
                   <Icon>keyboard_arrow_right</Icon>
@@ -141,6 +151,7 @@ function Competences(props) {
                 <a
                   className="secondary-content"
                   href="https://trello.com/"
+                  rel="noopener noreferrer"
                   target="_blank"
                 >
                   <Icon>keyboard_arrow_right</Icon>
@@ -151,6 +162,7 @@ function Competences(props) {
                 <a
                   className="secondary-content"
                   href="https://www.scrum.org/resources/what-is-scrum"
+                  rel="noopener noreferrer"
                   target="_blank"
                 >
                   <Icon>keyboard_arrow_right</Icon>
@@ -161,6 +173,7 @@ function Competences(props) {
                 <a
                   className="secondary-content"
                   href="figma.com"
+                  rel="noopener noreferrer"
                   target="_blank"
                 >
                   <Icon>keyboard_arrow_right</Icon>
@@ -179,6 +192,7 @@ function Competences(props) {
                 <a
                   className="secondary-content"
                   href="https://www.php.net/manual/fr/"
+                  rel="noopener noreferrer"
                   target="_blank"
                 >
                   <Icon>keyboard_arrow_right</Icon>
@@ -189,6 +203,7 @@ function Competences(props) {
                 <a
                   className="secondary-content"
                   href="https://angularjs.org/"
+                  rel="noopener noreferrer"
                   target="_blank"
                 >
                   <Icon>keyboard_arrow_right</Icon>
@@ -199,6 +214,7 @@ function Competences(props) {
                 <a
                   className="secondary-content"
                   href="https://vuejs.org/"
+                  rel="noopener noreferrer"
                   target="_blank"
                 >
                   <Icon>keyboard_arrow_right</Icon>
