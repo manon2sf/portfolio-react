@@ -1,4 +1,13 @@
+/*
+ * style.scss - Parcoursstyle file
+ */
+/* Import colors */
+@import "../../../assets/styles/colors.scss";
+
 .parcours-container {
+  .tabs .tab a {
+    color: $accent !important;
+  }
   .carousel {
     height: 430px;
   }
@@ -18,5 +27,13 @@
   .tabs-content {
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
       0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .parcours-container {
+    .tabs .tab a {
+      font-size: 12px;
+    }
   }
 }

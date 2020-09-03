@@ -1,0 +1,26 @@
+/*
+ * style.scss - template project style file
+ */
+
+/* Import colors */
+@import "../../../assets/styles/colors.scss";
+
+.project-container {
+  padding-top: 64px;
+  margin: 0 30px;
+
+  .title-project {
+    justify-content: space-between;
+    align-items: center;
+
+    .nav-project p {
+      margin-top: 0;
+      float: right;
+    }
+  }
+
+  a {
+    font-size: 1rem;
+    color: $primary;
+  }
+}
