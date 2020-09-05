@@ -14,6 +14,8 @@ import Home from "../component/Home/Home";
 import Community from "./Project/Community/Community";
 import CannesIsUp from "./Project/CannesIsUp/CannesIsUp";
 import Bocalgram from "./Project/Bocalgram/Bocalgram";
+import ToDoList from "./Project/ToDoList/ToDoList";
+import Cine from "./Project/Cine/Cine";
 import Footer from "../component/Footer/Footer";
 
 /* Styles imports */
@@ -41,6 +43,11 @@ function App() {
             path={`${process.env.PUBLIC_URL}/bocalgram`}
             component={Bocalgram}
           />
+          <Route
+            path={`${process.env.PUBLIC_URL}/todolist`}
+            component={ToDoList}
+          />
+          <Route path={`${process.env.PUBLIC_URL}/cinema`} component={Cine} />
           <Route path={process.env.PUBLIC_URL} component={Home} />
         </Switch>
 

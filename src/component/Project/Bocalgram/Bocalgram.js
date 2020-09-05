@@ -6,9 +6,6 @@
 import React from "react";
 import Project from "../../../assets/component/ProjectTemplate/ProjectTemplate";
 
-/* Styles imports */
-import "./style.scss";
-
 /* bocalgram component */
 function Bocalgram() {
   /**
@@ -68,10 +65,10 @@ function Bocalgram() {
       }
       techno={techno()}
       lien="https://github.com/manon2sf/instagram-clone-lebocalgram"
-      nextLink="/community"
-      nextTitle="Community"
-      prevLink="/cannesisup"
-      prevTitle="Cannes is up"
+      nextLink="/todolist"
+      nextTitle="To Do List"
+      prevLink="/cinema"
+      prevTitle="Ciné App"
     />
   );
 }

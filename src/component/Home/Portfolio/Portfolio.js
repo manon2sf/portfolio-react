@@ -19,7 +19,7 @@ function Portfolio(props) {
   return (
     <Row>
       {/* community */}
-      <Col m={4} s={12}>
+      <Col l={3} m={6} s={12}>
         <Card
           closeIcon={<Icon>close</Icon>}
           header={
@@ -47,7 +47,7 @@ function Portfolio(props) {
       </Col>
 
       {/* Cannes is up */}
-      <Col m={4} s={12}>
+      <Col l={3} m={6} s={12}>
         <Card
           closeIcon={<Icon>close</Icon>}
           header={
@@ -77,8 +77,33 @@ function Portfolio(props) {
         </Card>
       </Col>
 
+      {/* Appli Cine */}
+      <Col l={3} m={6} s={12}>
+        <Card
+          closeIcon={<Icon>close</Icon>}
+          header={<CardTitle image="img/cine1.png" reveal waves="light" />}
+          reveal={
+            <div>
+              <p>Application mobile Cinéma</p>
+              <p>Première application full stack réalisée sous React Native </p>
+              <ul>
+                <li>Navigation à 3 niveaux</li>
+                <li>The movie DataBase API</li>
+                <li>Recherche de films</li>
+              </ul>
+            </div>
+          }
+          revealIcon={<Icon>more_vert</Icon>}
+          title="Appli Ciné - Application mobile React Native"
+        >
+          <p>
+            <Link to={process.env.PUBLIC_URL + "/cinema"}>en savoir +</Link>
+          </p>
+        </Card>
+      </Col>
+
       {/* LeBocalgram */}
-      <Col m={4} s={12}>
+      <Col l={3} m={6} s={12}>
         <Card
           closeIcon={<Icon>close</Icon>}
           header={
@@ -100,6 +125,25 @@ function Portfolio(props) {
         >
           <p>
             <Link to={process.env.PUBLIC_URL + "/bocalgram"}>en savoir +</Link>
+          </p>
+        </Card>
+      </Col>
+
+      {/* To Do list */}
+      <Col l={3} m={6} s={12}>
+        <Card
+          closeIcon={<Icon>close</Icon>}
+          header={<CardTitle image="img/toDo.jpg" reveal waves="light" />}
+          reveal={
+            <div>
+              <p>To Do list réalisée uniquement avec Javascript, HTML et CSS</p>
+            </div>
+          }
+          revealIcon={<Icon>more_vert</Icon>}
+          title="To Do List - Javascript Vanilla"
+        >
+          <p>
+            <Link to={process.env.PUBLIC_URL + "/todolist"}>en savoir +</Link>
           </p>
         </Card>
       </Col>

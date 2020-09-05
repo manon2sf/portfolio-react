@@ -6,9 +6,6 @@
 import React from "react";
 import Project from "../../../assets/component/ProjectTemplate/ProjectTemplate";
 
-/* Styles imports */
-import "./style.scss";
-
 /* Footer component */
 function Community(props) {
   /**

@@ -6,9 +6,6 @@
 import React from "react";
 import Project from "../../../assets/component/ProjectTemplate/ProjectTemplate";
 
-/* Styles imports */
-import "./style.scss";
-
 /* Footer component */
 function CannesIsUp() {
   /**
@@ -92,8 +89,8 @@ function CannesIsUp() {
       }
       techno={techno()}
       lien="https://github.com/manon2sf/Cannes-is-up"
-      nextLink="/bocalgram"
-      nextTitle="Bocalgram"
+      nextLink="/cinema"
+      nextTitle="Ciné App"
       prevLink="/community"
       prevTitle="Community"
     />

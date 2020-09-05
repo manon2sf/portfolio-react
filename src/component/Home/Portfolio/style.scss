@@ -1,0 +1,14 @@
+/*
+ * style.scss - Portfolio style file
+ */
+/* Import colors */
+@import "../../../assets/styles/colors.scss";
+
+.card-content {
+  min-height: 178px !important;
+}
+
+.card .card-title {
+  font-size: 20px !important;
+  height: 100px;
+}
