@@ -28,14 +28,14 @@ function Project(props) {
 
   return (
     <div className="secondary-bg project-container center">
-      <div className="flex title-project ">
+      {/* header */}
+      <div className="flex change-project ">
         <div className="flex nav-project">
           <Link to={process.env.PUBLIC_URL + props.prevLink}>
             <Icon>navigate_before</Icon>
             <p>{props.prevTitle}</p>
           </Link>
         </div>
-        <h1 className="accent-txt">{props.title}</h1>
         <div className="flex nav-project">
           <Link to={process.env.PUBLIC_URL + props.nextLink}>
             <p>{props.nextTitle}</p>
@@ -43,21 +43,23 @@ function Project(props) {
           </Link>
         </div>
       </div>
+      <h1 className="accent-txt title-project">{props.title}</h1>
 
+      {/* Project */}
       <Row>
         <Col l={4} s={12}>
           <Row>
-            <Col l={12} s={4}>
+            <Col l={12}>
               <div className="picture-container">
                 <img className="img100 " src={props.imageA} alt="" />
               </div>
             </Col>
-            <Col l={12} s={4}>
+            <Col l={12}>
               <div className="picture-container">
                 <img className="img100 " src={props.imageB} alt="" />
               </div>
             </Col>
-            <Col l={12} s={4}>
+            <Col l={12}>
               <div className="picture-container">
                 <img className="img100 " src={props.imageC} alt="" />
               </div>
@@ -65,7 +67,7 @@ function Project(props) {
           </Row>
         </Col>
         <Col l={8} s={12}>
-          <Table>
+          <Table responsive={true}>
             <tr>
               <th>Date</th>
               <td>{props.date}</td>
@@ -98,10 +100,14 @@ function Project(props) {
               <th>Stack</th>
               <td>{props.stack}</td>
             </tr>
-            <tr>
-              <th>Choix technologiques</th>
-              <td>{props.techno}</td>
-            </tr>
+            {props.techno ? (
+              <tr>
+                <th>Choix technologiques</th>
+                <td>{props.techno}</td>
+              </tr>
+            ) : (
+              ""
+            )}
           </Table>
         </Col>
       </Row>

@@ -199,21 +199,10 @@ function Competences(props) {
                 </a>
               </CollectionItem>
               <CollectionItem>
-                Angular JS
+                GraphQL
                 <a
                   className="secondary-content"
-                  href="https://angularjs.org/"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <Icon>keyboard_arrow_right</Icon>
-                </a>
-              </CollectionItem>
-              <CollectionItem>
-                Vue JS
-                <a
-                  className="secondary-content"
-                  href="https://vuejs.org/"
+                  href="https://graphql.org/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >

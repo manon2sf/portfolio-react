@@ -9,9 +9,9 @@
   padding-top: 64px;
   margin: 0 30px;
 
-  .title-project {
+  .change-project {
     justify-content: space-between;
-    align-items: center;
+    margin-top: 15px;
 
     .nav-project p {
       margin-top: 0;
@@ -19,9 +19,42 @@
     }
   }
 
+  .title-project {
+    margin: 0.5em 0 1em;
+  }
+
   a {
     font-size: 1rem;
     color: $primary;
     text-decoration: underline;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .project-container {
+    th,
+    td,
+    a {
+      text-align: left !important;
+      font-size: 14px !important;
+    }
+
+    th {
+      padding: 10px 5px 0;
+    }
+
+    td {
+      padding: 5px 5px 10px;
+    }
+
+    ul,
+    p {
+      margin: 0;
+    }
+
+    .row {
+      display: flex;
+      flex-direction: column-reverse;
+    }
   }
 }

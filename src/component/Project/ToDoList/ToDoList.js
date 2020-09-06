@@ -39,7 +39,7 @@ function ToDoList() {
         <p>
           <span class="primary-txt lighten bold">Javascript Vanilla</span> /{" "}
           <span class="primary-txt lighten bold">HTML</span> /
-          <span class="primary-txt lighten bold">CSS</span> /{" "}
+          <span class="primary-txt lighten bold">CSS</span>{" "}
         </p>
       }
       techno=""

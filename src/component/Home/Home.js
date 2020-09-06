@@ -90,7 +90,7 @@ function Home(props) {
               </Col>
               <Col className="col2" l={6} s={12}>
                 <div className="text-container">
-                  <p className="subtitle accent-txt">Qui suis-je ?</p>
+                  <h3 className="subtitle accent-txt">Qui suis-je ?</h3>
                   <p>
                     Ingénieure agro-alimentaire de formation, j'ai relevé le
                     challenge d'une reconversion dans le Web début 2020 et j'en
@@ -112,7 +112,7 @@ function Home(props) {
           </Fade>
           <Fade right>
             <Row>
-              <p className="subtitle accent-txt">Mon parcours</p>
+              <h3 className="subtitle accent-txt">Mon parcours</h3>
               <div className="parcours-container">
                 <Parcours />
               </div>

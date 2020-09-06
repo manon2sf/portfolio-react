@@ -108,30 +108,49 @@ body {
     }
     h1 {
       font-size: 2rem;
-      margin: 1rem 0;
+      margin: 2.5rem 0 1rem;
+    }
+    h3 {
+      font-size: 1.3rem;
     }
   }
 
-  #appContainer .title {
-    font-size: 1.5rem;
-  }
+  #appContainer {
+    .title {
+      font-size: 1.5rem;
+    }
 
-  nav .brand-logo {
-    font-size: 1.2rem;
-  }
+    .subtitle {
+      font-size: 1.2rem;
+    }
 
-  .parcours-container {
-    .parcours-tab {
-      ul {
-        margin: 0.5rem 0;
+    nav .brand-logo {
+      font-size: 1.2rem;
+    }
+
+    .parcours-container {
+      .parcours-tab {
+        ul {
+          margin: 0.5rem 0;
+        }
+        .title-tab {
+          font-size: 1rem;
+          margin: 0.5rem 0 0;
+        }
+
+        .subtitle-tab {
+          margin-bottom: 0;
+        }
       }
-      .title-tab {
-        font-size: 1rem;
-        margin: 0.5rem 0 0;
+    }
+
+    #competencesContainer {
+      h4 {
+        font-size: 1.2rem;
       }
 
-      .subtitle-tab {
-        margin-bottom: 0;
+      .col {
+        padding: 0 1.5rem;
       }
     }
   }
